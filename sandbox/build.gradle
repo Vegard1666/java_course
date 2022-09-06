@@ -2,10 +2,10 @@ plugins {
     id 'java-library'
 }
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(8)
-    }
+plugins {
+    id 'application'
 }
 
-version = '1.2.1'
+application {
+    mainClass = 'ru.javacourse.sandbox.MyFirstProgram'
+}
