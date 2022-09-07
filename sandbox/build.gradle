@@ -1,11 +1,3 @@
-plugins {
-    id 'java-library'
-}
-
-plugins {
-    id 'application'
-}
-
-application {
-    mainClass = 'ru.javacourse.sandbox.MyFirstProgram'
-}
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = "MyFirstProgram"
